@@ -2,39 +2,39 @@
 # Tap: codegeex/homebrew-zread_cli
 #
 # Template variables (replaced at release time):
-#   0.2.4             - release version, e.g. 1.2.3
-#   2d1612272217fab8da068b9b57faf9d3fde57425fb8f5247439f471b5ebc8c89 - SHA-256 of zread-darwin-x86_64
-#   933d4dbc79bc62e206ca25e6b4c3a5eee8de8b6dfdc240e50d6deaa65de91672 - SHA-256 of zread-darwin-arm64
-#   600b0b4e9d2dc0f40dbafb546bcb132b781d628d06e2ddb5f39cb547883e6021  - SHA-256 of zread-linux-x86_64
-#   0b14c30a28d5d899ac705cd6b10fce9b32ba86d524b3eb4a8967669c285879a5  - SHA-256 of zread-linux-aarch64
+#   0.2.5             - release version, e.g. 1.2.3
+#   85e5fabce3f4bf675aa5e8040dd10c94aafa077ac24f3ec03d514f8c94bddb82 - SHA-256 of zread-darwin-x86_64
+#   1764d1891002d1bd2df40bf8b1c77a6ab39a3ff4644b0e3c2974dc776c070e0b - SHA-256 of zread-darwin-arm64
+#   8659697758b0c03977d01ca929f3ff3c93c8a487424205a55b3892fb8802919b  - SHA-256 of zread-linux-x86_64
+#   e2ad664d53fdab4911fab9c633a7f2dac1d133e29ef50b459174a860203f6c1d  - SHA-256 of zread-linux-aarch64
 
 class Zread < Formula
   desc "Zread turns your local codebase into readable docs"
   homepage "https://zread.ai"
-  version "0.2.4"
+  version "0.2.5"
   license :cannot_represent
 
   on_macos do
     on_intel do
-      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.4/zread-darwin-x86_64"
-      sha256 "2d1612272217fab8da068b9b57faf9d3fde57425fb8f5247439f471b5ebc8c89"
+      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.5/zread-darwin-x86_64"
+      sha256 "85e5fabce3f4bf675aa5e8040dd10c94aafa077ac24f3ec03d514f8c94bddb82"
     end
 
     on_arm do
-      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.4/zread-darwin-arm64"
-      sha256 "933d4dbc79bc62e206ca25e6b4c3a5eee8de8b6dfdc240e50d6deaa65de91672"
+      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.5/zread-darwin-arm64"
+      sha256 "1764d1891002d1bd2df40bf8b1c77a6ab39a3ff4644b0e3c2974dc776c070e0b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.4/zread-linux-x86_64"
-      sha256 "600b0b4e9d2dc0f40dbafb546bcb132b781d628d06e2ddb5f39cb547883e6021"
+      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.5/zread-linux-x86_64"
+      sha256 "8659697758b0c03977d01ca929f3ff3c93c8a487424205a55b3892fb8802919b"
     end
 
     on_arm do
-      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.4/zread-linux-aarch64"
-      sha256 "0b14c30a28d5d899ac705cd6b10fce9b32ba86d524b3eb4a8967669c285879a5"
+      url "https://github.com/ZreadAI/zread_cli/releases/download/v0.2.5/zread-linux-aarch64"
+      sha256 "e2ad664d53fdab4911fab9c633a7f2dac1d133e29ef50b459174a860203f6c1d"
     end
   end
 
